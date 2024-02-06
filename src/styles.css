@@ -1,0 +1,49 @@
+body {
+    background-color: #ffffff;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    justify-content: space-between;
+    margin-left:5rem;
+    margin-right:20rem;
+
+    .logo {
+    }
+
+    .menuOp {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
+.project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10rem;
+}
+.project_holder{
+    display: flex;
+    width: 30rem;
+    flex-direction: column;
+}
+.project_text{
+
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    margin-right:20rem ;
+    margin-left:20rem ;
+
+}
+
+.mainFocus{
+
+}
+.focusHolder{
+    display: flex;
+    flex-direction: row;
+}
