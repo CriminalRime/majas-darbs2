@@ -18,32 +18,104 @@ nav {
         gap: 2rem;
     }
 }
+.landingpage{
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
 .project{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 10rem;
+    margin-bottom: 10rem;
+    align-items: flex-start;
 }
 .project_holder{
     display: flex;
-    width: 30rem;
+    width: 50%;
     flex-direction: column;
+    justify-content: space-between;
 }
 .project_text{
+margin-top: 15rem;
+}
 
+.project_button_holder{
+    display: flex;
+    flex-direction: row;
+}
+.project_button_pageText{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15rem;
+}
+.project_image_holder{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    scale: 100%;
+
+}
+.project_image{
+    width: 100%;
+    height: auto;
+}
+.project_image_button{
+    position: absolute;
+
+}
+button{
+    border-radius: 0px;
 }
 .about{
     display: flex;
     flex-direction: row;
-    margin-right:20rem ;
-    margin-left:20rem ;
+    background-color: lightgray;
+    padding-bottom: -1rem;
+    justify-content: space-between;
+    margin-bottom: 5rem;
 
 }
 
-.mainFocus{
+.about_images_holder{
+    width: 40rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.about_images{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.about_images_1and2{
+    display: flex;
+    flex-direction: column;
+}
+
+.about_images_1{
+margin-bottom: 1rem;
+}
+.about_images_2{
 
 }
-.focusHolder{
+.about_images_3{
+    margin: 1rem;
+}
+
+.about_holder{
+    width: 30rem;
+    height: 26rem;
+margin-right: 2rem;
+}
+
+
+.focus{
+
+}
+.focus_Holder{
     display: flex;
     flex-direction: row;
 }
