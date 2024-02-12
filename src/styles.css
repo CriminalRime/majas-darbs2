@@ -8,7 +8,6 @@ nav {
     justify-content: space-between;
     margin-left:5rem;
     margin-right:20rem;
-
     .logo {
     }
 
@@ -19,8 +18,11 @@ nav {
     }
 }
 .landingpage{
-    margin-right: 5rem;
-    margin-left: 5rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+p{
+    font-family: Roboto;
 }
 .project{
     display: flex;
@@ -29,24 +31,60 @@ nav {
     margin-bottom: 10rem;
     align-items: flex-start;
 }
+h1{
+    font-size:64px ;
+    font-family: Roboto;
+    font-weight: lighter;
+}
+h2{
+    font-size: 64px ;
+    font-family: Roboto;
+    margin-top: -3rem;
+    margin-bottom: 5rem;
+}
 .project_holder{
     display: flex;
     width: 50%;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    padding-top: 8rem;
 }
 .project_text{
 margin-top: 15rem;
 }
-
 .project_button_holder{
     display: flex;
     flex-direction: row;
+    margin-bottom: 5rem;
+}
+.project_button_left{
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    border-color: darkgray;
+    border-width: 1px;
+    border-style: solid;
+    background-color: white;
+}
+.project_button_right{
+    height: 3rem;
+    width: 3rem;
+    border-color: darkgray;
+    border-width: 1px;
+    border-style: solid;
+    background-color: white;
 }
 .project_button_pageText{
     display: flex;
     flex-direction: row;
     margin-bottom: 15rem;
+    margin-left: -1rem;
+}
+.project_button_pageText_p{
+    margin: 1rem;
+    color: darkgray;
+    font-size: 24px ;
+    font-weight: lighter;
 }
 .project_image_holder{
     position: relative;
@@ -55,7 +93,6 @@ margin-top: 15rem;
     justify-content: flex-start;
     align-items: flex-end;
     scale: 100%;
-
 }
 .project_image{
     width: 100%;
@@ -63,7 +100,14 @@ margin-top: 15rem;
 }
 .project_image_button{
     position: absolute;
-
+    height: 5rem;
+    width: 15rem;
+    border-color: white;
+    background-color: white;
+    border-width: 0rem;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #2c2c2c;
 }
 button{
     border-radius: 0px;
@@ -71,51 +115,219 @@ button{
 .about{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
-    padding-bottom: -1rem;
+    background-color: #f8f8f8;
     justify-content: space-between;
     margin-bottom: 5rem;
+    height: 32rem;
 
 }
-
 .about_images_holder{
-    width: 40rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-left: 8rem;
 }
 
 .about_images{
-    position: absolute;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
-
 .about_images_1and2{
     display: flex;
     flex-direction: column;
+    height:80%;
 }
-
 .about_images_1{
-margin-bottom: 1rem;
-}
-.about_images_2{
-
+    margin-bottom: 2rem;
 }
 .about_images_3{
-    margin: 1rem;
+    margin-left: 2rem;
 }
-
 .about_holder{
-    width: 30rem;
-    height: 26rem;
-margin-right: 2rem;
+    width: 40%;
+    margin-right: 6rem;
+    margin-left: 3rem;
 }
+h3{
+    font-family: Roboto;
+    font-size: 64px;
+    color: darkgray;
+    font-weight: lighter;
+}
+.about_holder_p{
+    margin-top: -3rem;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.about_holder_button{
+    width: 14rem;
+    height: 4rem;
+    background-color: white;
+    border-color:white;
+    border-width: 0rem;
 
-
+}
 .focus{
-
+height: 30rem;
 }
-.focus_Holder{
+h4{
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: lighter;
+    color: darkgray;
+}
+.focus_holder{
     display: flex;
     flex-direction: row;
+}
+.focus_holder_1{
+    display: flex;
+    flex-direction: row;
+}
+.focus_holder_2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10rem;
+}
+.focus_holder_text_numb{
+    font-size: 300px;
+    font-weight: bold;
+    color: #d5d5d5;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
+.focus_holder_text{
+    width: 50%;
+    font-size: 30px;
+    line-height: 34px;
+    margin-left: 3rem;
+}
+.our{
+    height: 45rem;
+    margin-bottom:10rem ;
+}
+h5{
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: lighter;
+    color: darkgray;
+}
+.our_img{
+    height: 40rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-content: stretch;
+
+}
+.our_img_sample{
+    background-color: #2c2c2c;
+    width: 49rem;
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.our_img_sample_p{
+    width: 15rem;
+    margin-left: 5rem;
+    font-size: 64px;
+    margin-top: -1rem;
+    color: white;
+    font-weight:bold;
+}
+.our_img_sample_button{
+    width: 8rem;
+    margin-left: 5rem;
+    margin-top: -2rem;
+    font-family: Roboto;
+    font-size: 16px;
+    border-style: none;
+    background-color: #2c2c2c;
+    color: white;
+}
+.our_img_1{
+    background: darkgray;
+    width: 45rem;
+    height: 17rem;
+
+}
+.our_img_2{
+    background: darkgray;
+    width: 32rem;
+    height: 17rem;
+
+}
+.our_img_3{
+    background: darkgray;
+    width: 27rem;
+    height: 17rem;
+
+}
+.our_img_4{
+    background: darkgray;
+    width: 32rem;
+    height: 17rem;
+
+}
+
+.our_holder{
+    display: flex;
+    justify-content: flex-end;
+}
+.our_holder_button{
+    border-style: none;
+    background-color: #2c2c2c;
+    color: white;
+    height: 5rem;
+    width: 12rem;
+}
+
+.contact{
+    height: 40rem;
+    margin-top: 20rem;
+}
+h6{
+    font-family: Roboto;
+    font-size: 64px;
+    margin-bottom: -2rem;
+    color: darkgray;
+    font-weight: lighter;
+}
+input{
+    background-color: #eeeeee;
+    border-style: none;
+    height: 2rem;
+}
+.contact_holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.contact_holder_writ{
+    display: flex;
+    flex-direction: column;
+    width:30% ;
+    justify-content: space-between;
+}
+
+.contact_holder_img{
+}
+.contact_holder_writ_massage{
+    height: 8rem;
+}
+.contact_button{
+    font-family: Roboto;
+    height: 4rem;
+    width: 12rem;
+    border-style: none;
+    background-color: #2c2c2c;
+    color: white;
+}
+footer{
+    background-color: #2c2c2c;
+    height: 30rem;
 }
